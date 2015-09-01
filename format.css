@@ -30,24 +30,23 @@
 
 .nav {
   padding: 20px 0px;
-  display: inline;
+  background-color: #0B1924;
  }
 
 .nav a{
-  color: white;
-  font-size: 11px;
+  color: #ccff33;
+  font-size: 15px;
   font-weight: bold;
   padding: 14px 10px;
   text-transform: uppercase;
+ }
+
+.nav  a:hover{
+	color: #ff99ff;
 }
 
-
-
 .nav li{
-	display: inline;
-  background-color: #0B1924;
-  border: 1px solid pink;
-  border-radius: 10px;
+  display: inline;
   padding: 10px 5px;
  }
 
