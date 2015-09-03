@@ -149,7 +149,7 @@ ul#piano {
   display:block;
   margin-left: auto;
     margin-right: auto;
-  width:50%;
+  /*width:50%;*/
   height:240px;
   border-top:2px solid #222;
 }
@@ -576,8 +576,64 @@ border-bottom-right-radius:60px 5px;
   transform:rotate(-30deg) skew(0,0) translate(-30px,-20px);
 }
 
-ul#piano li div#testred {
-  background: #acc;
+.credit p.content {
+  font:italic 1.2em Cambria,Georgia,Serif;
+}
+
+ul#piano li#claviature-light-blue a{
+  background: #78C5D6;
+}
+
+ul#piano li#claviature-dark-blue a{
+  background: #459BA8;
+}
+
+ul#piano li#claviature-light-green a{
+  background: #C5D647;
+}
+
+ul#piano li#claviature-dark-green a{
+  background: #79C267;
+}
+
+ul#piano li#claviature-yellow a{
+  background: #F5D63D;
+}
+
+ul#piano li#claviature-orange a{
+  background: #F28C33;
+}
+
+ul#piano li#claviature-pink a{
+  background: #E868A2;
+}
+
+ul#piano li#claviature-purple a{
+  background: #BF62A6;
+}
+
+.contactAddress {
+    display: block;
+    background: url("contact_icon_address.png") no-repeat 0px 0px;
+    color: #b3b3b3;
+    margin: 22px 0 0;
+    padding: 0px 0px 0px 22px;
+}
+
+.contactPhone { 
+  display: block;
+  background: url("contact_icon_phone.png") no-repeat 0px 2px; 
+  padding: 0px 0px 0px 25px; 
+  color: #b3b3b3;
+  margin: 22px 0 0;
+}
+
+.contactEmail { 
+  display: block;
+  background: url("contact_icon_mail.png") no-repeat 0px 5px; 
+  padding: 0px 0px 0px 25px; 
+  color: #b3b3b3;
+  margin: 22px 0 0;
 }
 
 .clear {

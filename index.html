@@ -12,17 +12,17 @@
  <body>
     <div id="p-wrapper">
   <ul id="piano">
-    <li><div class="anchor" id="testred"></div></li>
-    <li><a href="#"></a><span></span><b>Acasa</b></li>
+    <li><div class="anchor"></div></li>
+    <li id="claviature-light-blue"><a href="#"></a><span></span><b>Acasa</b></li>
     <li><div class="anchor"></div><span></span></li>
-    <li><div class="anchor"></div><span></span></li>
+    <li id="claviature-dark-blue"><a href="#"></a><span></span><b>Servicii</b></li>
     <li><div class="anchor"></div></li>
     <li><div class="anchor"></div><span></span></li>
-    <li><div class="anchor"></div><span></span></li>
+    <li id="claviature-dark-green"><a href="#"></a><span></span><b>Tarife & Program</b></li>
     <li><div class="anchor"></div></li>
     <li><div class="anchor"></div><span></span></li>
-    <li><a href="#"></a><span></span><b>About</b></li>
-    <li><a href="#"></a><span></span><b>Archives</b>
+    <li id="claviature-yellow"><a href="#"></a><span></span><b>Despre noi</b></li>
+    <li id="claviature-orange"><a href="#"></a><span></span><b>Media</b>
       <ul>
         <li><a href="#">2007</a></li>
         <li><a href="#">2006</a></li>
@@ -31,16 +31,16 @@
       </ul>
     </li>
     
-    <li><a href="#"></a><b>Search</b>
-      <div id="search">
+    <li id="claviature-pink"><a href="#"></a><b>Contact</b>
+      <!-- <div id="search">
         <form>
           <input type="text" placeholder="Search..." />
         </form>
-      </div>
+      </div> -->
     </li>
     
-    <li><a href="#"></a><span></span><b>Contact Me</b>
-      <div id="contact">
+    <li id="claviature-purple"><a href="#"></a><span></span><b>Termeni si Conditii</b>
+      <!-- <div id="contact">
         <form>
           <input type="text" class="required" placeholder="Name" />
           <input type="text" class="required" placeholder="Email" />
@@ -48,11 +48,16 @@
           <input type="submit" value="Send" />
           <div class="clear"></div>
         </form>
-      </div>
+      </div> -->
     </li>
     <li><div class="anchor"></div></li>
     <li><div class="anchor"></div><span></span></li>
     <li><div class="anchor"></div><span></span></li>
+  
+    <li><div class="anchor"></div><span></span></li>
+    <li><div class="anchor"></div><span></span></li>
+    <li><div class="anchor"></div><span></span></li>
+    <li><div class="anchor"></div></li>
   </ul>
 </div>
 
@@ -60,10 +65,18 @@
          <div class="col-md-7">
 
 <div class="credit">
-  <strong>Lorem ipsum</strong><br />
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra sem purus, nec feugiat ligula volutpat eget. Nulla facilisi. Proin molestie nunc ex, vitae fermentum leo consequat a. Sed tempor aliquet massa nec dictum. Proin pellentesque lorem at mattis consectetur. Donec rhoncus orci enim, sed congue tortor porttitor in. Praesent ullamcorper dictum sodales. Cras faucibus ut lectus vel consequat.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra sem purus, nec feugiat ligula volutpat eget. Nulla facilisi. Proin molestie nunc ex, vitae fermentum leo consequat a. Sed tempor aliquet massa nec dictum. Proin pellentesque lorem at mattis consectetur. Donec rhoncus orci enim, sed congue tortor porttitor in. Praesent ullamcorper dictum sodales. Cras faucibus ut lectus vel consequat.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra sem purus, nec feugiat ligula volutpat eget. Nulla facilisi. Proin molestie nunc ex, vitae fermentum leo consequat a. Sed tempor aliquet massa nec dictum. Proin pellentesque lorem at mattis consectetur. Donec rhoncus orci enim, sed congue tortor porttitor in. Praesent ullamcorper dictum sodales. Cras faucibus ut lectus vel consequat.</p>
+  <strong><h3>Lorem ipsum</h3></strong><br />
+
+   <p class="content">Sunteţi interesat de procesul de învăţare a unui instrument? Poate că doriţi să vă îmbunătăţiţi talentul muzical, să cântaţi într-un cor, să vă alăturaţi unui grup sau să vă formaţi propria trupă? Acum puteţi să faceţi toate acestea, să întâlniţi noi prieteni şi să găsiţi locuri pentru a evolua scenic. Aruncaţi o privire la cursurile noastre şi la membrii acestui site.</p>
+
+    <p class="content">Într-un efort de a introduce cât mai multe stiluri muzicale în comunitate, organizăm evenimente publice, încurajându-ne mereu atât studenţii cât şi membrii să participe la diverse concursuri de muzică. Noi credem că muzica merită să fie împărtăşită şi ne-ar place să vă alăturaţi nouă în timpul unuia dintre evenimentele noastre.</p> 
+
+    <p class="content">Verificaţi ştirile noastre sau secţiunea Evenimente pe site-ul nostru pentru a afla mai multe informaţii cu privire la evenimentele viitoare.</p>
+
+    <p class="content">Verificati informatiile despre meditatiile la pian si canto in sectiunea <span style="color:#459BA8">Servicii</span> pentru mai multe detalii.</p>
+
+    <p class="content">Sunteţi în zona Bucuresti? Ne-ar place să ne vizitaţi pe Sos.Eforie, nr.2, sc. 1, etj. 5, ap. 44, sector 5, Bucuresti.</p>
+
   <div class="credit_ribbon"></div>
 </div>
 
@@ -75,19 +88,23 @@
   <strong>Ludovico Einaudi - Time Lapse - In A Time Lapse</strong><br />
   <audio id="bg-song" controls autoplay volume=0.5>
   <script>
-var audio = document.getElementById('bg-song');
-audio.volume = 0.2;
-</script>
+    var audio = document.getElementById('bg-song');
+    audio.volume = 0.2;
+  </script>
   <source src="background.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
+  Your browser does not support the audio element.
+  </audio>
   <br />
   <div class="credit_ribbon"></div>
 </div>
 
 <div class="credit">
   <strong>Date de contact</strong><br />
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra sem purus, nec feugiat ligula volutpat eget. Nulla facilisi. Proin molestie nunc ex, vitae fermentum leo consequat a. Sed tempor aliquet massa nec dictum. Proin pellentesque lorem at mattis consectetur. Donec rhoncus orci enim, sed congue tortor porttitor in. Praesent ullamcorper dictum sodales. Cras faucibus ut lectus vel consequat.</p>
+  <span class="contactAddress">Str.Eforie, nr.2, sc. 1, etj. 5, ap. 44, interfon 44<br />
+sector 5, Bucuresti<br />
+  </span>
+  <span class="contactPhone">0762686570</span>
+  <span class="contactEmail"><a href="&#109;&#97;&#105;&#108;&#116;&#111;:&#97;&#108;&#101;&#120;&#97;&#110;&#100;&#114;&#97;&#46;&#115;&#116;&#101;&#102;&#97;&#110;&#46;&#115;&#111;&#112;&#114;&#97;&#110;&#111;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;"><span id="rbcContactEmail">&#97;&#108;&#101;&#120;&#97;&#110;&#100;&#114;&#97;&#46;&#115;&#116;&#101;&#102;&#97;&#110;&#46;&#115;&#111;&#112;&#114;&#97;&#110;&#111;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</span></a></span>
   <div class="credit_ribbon"></div>
 </div>
 
