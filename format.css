@@ -1,79 +1,8 @@
 ﻿html, body {
   margin: 0;
   padding: 0;
+  height:100%;
 }
-
-.container {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 10px;
-  
-}
-
-.jumbotron {
-  height: 900px;
-  background-repeat: no-repeat;
-  background: url(bg1.jpg) repeat-y center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.jumbotron h2{
-	color: pink;
-}
-
-.jumbotron p {
-	color: white;
-	font-size: 11px;
-	
-}
-
-.nav {
-  padding: 20px 0px;
-  background-color: #0B1924;
- }
-
-.nav a{
-  color: #ccff33;
-  font-size: 15px;
-  font-weight: bold;
-  padding: 14px 10px;
-  text-transform: uppercase;
- }
-
-.nav  a:hover{
-	color: #ff99ff;
-}
-
-.nav li{
-  display: inline;
-  padding: 10px 5px;
- }
-
-
-
-/* 
-.footer {
-  background-color: #333;
-  color: #fff;
-  padding: 30px 0;
-}
-
-.footer p {
-  font-family: 'Raleway', sans-serif;
-  text-transform: uppercase;
-  font-size: 11px;
-} 
-
-@media (max-width: 500px) {
-  .main h1 {
-    font-size: 50px;
-    padding: 0 40px;
-  }
-}
- */
 
  /**
  * Pure CSS3 Piano by Taufik Nurrohman
@@ -84,7 +13,7 @@
  * Good luck!
  */
 
-* {
+ * {
   margin:0px;
   padding:0px;
   list-style:none;
@@ -95,13 +24,15 @@
 }
 
 body {
-  background:#666;
-  background:-webkit-radial-gradient(bottom left,cover,#666,#0E0E0E);
-  background:-moz-radial-gradient(bottom left,cover,#666,#0E0E0E);
-  background:-ms-radial-gradient(bottom left,cover,#666,#0E0E0E);
-  background:-o-radial-gradient(bottom left,cover,#666,#0E0E0E);
-  background:radial-gradient(bottom left,cover,#666,#0E0E0E);
-  height:500px;
+  /*background:#666;*/
+  /*background:-webkit-radial-gradient(bottom left,cover,#FBE9E7,#0E0E0E);
+  background:-moz-radial-gradient(bottom left,cover,#FBE9E7,#0E0E0E);
+  background:-ms-radial-gradient(bottom left,cover,#FBE9E7,#0E0E0E);
+  background:-o-radial-gradient(bottom left,cover,#FBE9E7,#0E0E0E);
+  background:radial-gradient(bottom left,cover,#FBE9E7,#0E0E0E);
+  background: #FCE4EC;*/
+  background: linear-gradient(#B5D446 , #58CAC0);
+  /*height:500px;*/
 }
 
 a {
@@ -115,24 +46,20 @@ a:hover {
 
 /* Piano Wrapper */
 #p-wrapper {
-  background:#000;
+
   background:-webkit-linear-gradient(-60deg,#000,#333,#000,#666,#333 70%);
   background:-moz-linear-gradient(-60deg,#000,#333,#000,#666,#333 70%);
   background:-ms-linear-gradient(-60deg,#000,#333,#000,#666,#333 70%);
   background:-o-linear-gradient(-60deg,#000,#333,#000,#666,#333 70%);
   background:linear-gradient(-60deg,#000,#333,#000,#666,#333 70%);
 
+  background: url("back-notes.png") no-repeat;
+  background-position: center;
 
-/*background:-webkit-linear-gradient(-60deg,#06034E,#19195D,#273B65,#070540,#090A21 70%);
-  background:-moz-linear-gradient(-60deg,#06034E,#19195D,#273B65,#070540,#090A21 70%);
-  background:-ms-linear-gradient(-60deg,#06034E,#19195D,#273B65,#070540,#090A21 70%);
-  background:-o-linear-gradient(-60deg,#06034E,#19195D,#273B65,#070540,#090A21 70%);
-  background:linear-gradient(-60deg,#06034E,#19195D,#273B65,#070540,#090A21 70%);
-*/
   width:100%;
   position:relative;
   left:0px;
-  -webkit-box-shadow:0 2px 0px #666,0 3px 0px #555,0 4px 0px #444,0 6px 6px #000,inset 0 -1px 1px rgba(255,255,255,0.5),inset 0 -4px 5px #000;
+  /*-webkit-box-shadow:0 2px 0px #666,0 3px 0px #555,0 4px 0px #444,0 6px 6px #000,inset 0 -1px 1px rgba(255,255,255,0.5),inset 0 -4px 5px #000;
   -moz-box-shadow:0 2px 0px #666,0 3px 0px #555,0 4px 0px #444,0 6px 6px #000,inset 0 -1px 1px rgba(255,255,255,0.5),inset 0 -4px 5px #000;
   box-shadow:0 2px 0px #666,0 3px 0px #555,0 4px 0px #444,0 6px 6px #000,inset 0 -1px 1px rgba(255,255,255,0.5),inset 0 -4px 5px #000;
   border:2px solid #333;
@@ -141,15 +68,15 @@ a:hover {
   border-radius:0 0 5px 5px;
   -webkit-animation:taufik 2s;
   -moz-animation:taufik 2s;
-  animation:taufik 2s;
+  animation:taufik 2s;*/
 }
 
 /* Tuts */
 ul#piano {
   display:block;
   margin-left: auto;
-    margin-right: auto;
-  /*width:50%;*/
+  margin-right: auto;
+  width:320px;
   height:240px;
   border-top:2px solid #222;
 }
@@ -218,7 +145,7 @@ ul#piano li a:active:after,ul#piano li div.anchor:active:after {
 ul#piano li span {
   position:absolute;
   top:0px;
-  left:-12px;
+  left:-10px;
   width:20px;
   height:120px;
   background:#333;
@@ -260,7 +187,7 @@ ul#piano li b {
   -moz-border-radius:7px;
   border-radius:7px;
   width:100px;
-  height:30px;
+  /*height:30px;*/
   padding:10px;
   left:-40px;
   z-index:100;
@@ -471,21 +398,22 @@ ul#piano li li a:hover {
 
 /* Paper */
 .credit {
-  margin:50px;
-  width:100%;
+  /*margin:50px;*/
+  /*width:100%;*/
   /*height:50px;*/
-  padding:30px;
+  /*padding:30px;*/
   position:relative;
-  background:#fff;
   font:italic 1.2em Cambria,Georgia,Serif;
   color:#666;
-  background:-webkit-gradient(linear,0% 20%,0% 92%,from(#fff),to(#f9f9f9),color-stop(.1,#fff));
+  /*background:-webkit-gradient(linear,0% 20%,0% 92%,from(#fff),to(#f9f9f9),color-stop(.1,#fff));
   background:-moz-linear-gradient(0 0 270deg,#fff,#fff 10%,#f9f9f9);
   background:-ms-linear-gradient(0 0 270deg,#fff,#fff 10%,#f9f9f9);
   background:-o-linear-gradient(0 0 270deg,#fff,#fff 10%,#f9f9f9);
   background:linear-gradient(0 0 270deg,#fff,#fff 10%,#f9f9f9);
   background-color: rgba(0, 0, 0, 0.5);
   /*background: url("tweed.png") repeat;*/
+  
+  background:#fff;
   color: #7D3800;
   border:1px solid #ccc;
   -webkit-box-shadow:1px 1px 4px rgba(0,0,0,0.1);
@@ -494,7 +422,7 @@ ul#piano li li a:hover {
   -webkit-border-bottom-right-radius:60px 5px;
   -moz-border-radius-bottomright:60px 5px;
   
-border-bottom-right-radius:60px 5px;
+  border-bottom-right-radius:60px 5px;
   -webkit-animation:taufik 1s;
   -moz-animation:taufik 1s;
   animation:taufik 1s;
@@ -523,7 +451,7 @@ border-bottom-right-radius:60px 5px;
   -webkit-border-bottom-right-radius:60px 5px;
   -moz-border-radius-bottomright:60px 5px;
   
-border-bottom-right-radius:60px 5px;
+  border-bottom-right-radius:60px 5px;
   -webkit-transform:skew(2deg,2deg) translate(-4px,8px);
   -moz-transform:skew(2deg,2deg) translate(-4px,8px);
   -ms-transform:skew(2deg,2deg) translate(-4px,8px);
@@ -589,15 +517,15 @@ border-bottom-right-radius:60px 5px;
   position:relative;
   /*background:#fff;*/
   font:italic 1.2em Cambria,Georgia,Serif;
-  color:#666;
-  background:-webkit-gradient(linear,0% 20%,0% 92%,from(#fff),to(#f9f9f9),color-stop(.1,#fff));
+  color:#fff;/*#666;*/
+  /*background:-webkit-gradient(linear,0% 20%,0% 92%,from(#fff),to(#f9f9f9),color-stop(.1,#fff));
   background:-moz-linear-gradient(0 0 270deg,#fff,#fff 10%,#f9f9f9);
   background:-ms-linear-gradient(0 0 270deg,#fff,#fff 10%,#f9f9f9);
   background:-o-linear-gradient(0 0 270deg,#fff,#fff 10%,#f9f9f9);
   background:linear-gradient(0 0 270deg,#fff,#fff 10%,#f9f9f9);
   background-color: rgba(0, 0, 0, 0.5);
-  background: url("tweed.png") repeat;
-  color: #000;/*b3b3b3;*/
+  background: url("tweed.png") repeat;*/
+  color: #fff;/*b3b3b3;*/
   border:1px solid #ccc;
   -webkit-box-shadow:1px 1px 4px rgba(0,0,0,0.1);
   -moz-box-shadow:1px 1px 4px rgba(0,0,0,0.1);
@@ -605,7 +533,7 @@ border-bottom-right-radius:60px 5px;
   -webkit-border-bottom-right-radius:60px 5px;
   -moz-border-radius-bottomright:60px 5px;
   
-border-bottom-right-radius:60px 5px;
+  border-bottom-right-radius:60px 5px;
   -webkit-animation:taufik 1s;
   -moz-animation:taufik 1s;
   animation:taufik 1s;
@@ -647,39 +575,153 @@ ul#piano li#claviature-purple a{
   background: #BF62A6;
 }
 
+ul#piano li#claviature-brown a{
+  background: #795548;
+}
+
 .contactAddress {
-    display: block;
-    background: url("contact_icon_address.png") no-repeat 0px 0px;
-    color: #FF844A;
-    margin: 22px 0 0;
-    padding: 0px 0px 0px 22px;
+  display: block;
+  background: url("contact_icon_address_white.png") no-repeat 0px 0px;
+  margin: 22px 0 0;
+  padding: 0px 0px 0px 22px;
 }
 
 .contactPhone { 
   display: block;
-  background: url("contact_icon_phone.png") no-repeat 0px 2px; 
+  background: url("contact_icon_phone_white.png") no-repeat 0px 2px; 
   padding: 0px 0px 0px 25px; 
-  color: #FF844A;
   margin: 22px 0 0;
 }
 
 .contactEmail { 
   display: block;
-  background: url("contact_icon_mail.png") no-repeat 0px 5px; 
+  background: url("contact_icon_mail_white.png") no-repeat 0px 5px; 
   padding: 0px 0px 0px 25px; 
-  color: #FF844A;
   margin: 22px 0 0;
 }
 
 .contactEmail a {
-  color: #FF844A;
+  color: #fff;
 }
 
 .clear {
   clear:both;
 }
 
+.page-content {
+  /*background: #FFAB91;*/
+  color: #A3320B;
+  text-align: justify;
+  font:italic 1.2em "Comic Sans MS", cursive, sans-serif;
+}
 
+.page-info {
+
+  margin-top: 20px;
+  padding: 0px;
+  /*background: #241023;*/
+  color: #6B0504;
+  font: 1.1em "Comic Sans MS", cursive, sans-serif;
+  
+  /*border:1px solid #ccc;
+  -webkit-box-shadow:1px 1px 4px rgba(0,0,0,0.1);
+  -moz-box-shadow:1px 1px 4px rgba(0,0,0,0.1);
+  box-shadow:1px 1px 4px rgba(0,0,0,0.1);
+  -webkit-border-bottom-right-radius:60px 5px;
+  -moz-border-radius-bottomright:60px 5px;
+  
+  border-bottom-right-radius:60px 5px;
+  -webkit-animation:taufik 1s;
+  -moz-animation:taufik 1s;
+  animation:taufik 1s;*/
+}
+
+.page-info-header {
+
+  margin: 0px;
+  padding: 5px;
+
+  background: #D32F2F;
+}
+
+.page-info-header h1, .page-info-headerh2 h2, .page-info-header h3, .page-info-header h4, .page-info-header h5, .page-info-header h6{
+
+  color: #fff;
+}
+
+.page-info-content {
+
+  margin: 0px;
+  padding: 20px;
+
+  color: #000;
+  opacity:0.6;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+
+  background:-moz-linear-gradient(left, rgba(0,0,0,0.001) 0%, rgba(201,201,201,1) 50%, rgba(0,0,0,0.001) 100%);
+  background:-webkit-linear-gradient(left, rgba(0,0,0,0.001) 0%, rgba(201,201,201,1) 50%, rgba(0,0,0,0.001) 100%);
+  background:-ms-linear-gradient(left, rgba(0,0,0,0.001) 0%, rgba(201,201,201,1) 50%, rgba(0,0,0,0.001) 100%);
+  background:-o-linear-gradient(left, rgba(0,0,0,0.001) 0%, rgba(201,201,201,1) 50%, rgba(0,0,0,0.001) 100%);
+  background:linear-gradient(left, rgba(0,0,0,0.001) 0%, rgba(201,201,201,1) 50%, rgba(0,0,0,0.001) 100%);
+
+
+  border:1px solid #ccc;
+  -webkit-box-shadow:1px 1px 4px rgba(0,0,0,0.1);
+  -moz-box-shadow:1px 1px 4px rgba(0,0,0,0.1);
+  box-shadow:1px 1px 4px rgba(0,0,0,0.1);
+  -webkit-border-bottom-right-radius:60px 5px;
+  -moz-border-radius-bottomright:60px 5px;
+  
+  border-bottom-right-radius:60px 5px;
+  -webkit-animation:taufik 1s;
+  -moz-animation:taufik 1s;
+  animation:taufik 1s;
+
+  border-top: 0;
+}
+
+.maincolor {
+
+  background: #000;
+}
+
+audio {
+  background: #fff;
+  width: 100%;
+}
+
+#map {
+  /*width: 500px;*/
+  height: 200px;
+}
+
+.container-fluid {
+  height:100%;
+}
+
+.landing {
+
+  min-height:100%;
+}
+
+.footer {
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background:-moz-linear-gradient(bottom, #455A64 0%, #37474F 5%, #263238 100%);
+  background:-webkit-linear-gradient(bottom, #455A64 0%, #37474F 5%, #263238 100%);
+  background:-ms-linear-gradient(bottom, #455A64 0%, #37474F 5%, #263238 100%);
+  background:-o-linear-gradient(bottom, #455A64 0%, #37474F 5%, #263238 100%);
+  background:linear-gradient(bottom, #455A64 0%, #37474F 5%, #263238 100%);
+
+}
+
+.footer-contact {
+
+  float:left;
+  padding: 25px;
+  color: #fff;
+}
 /* Animation */
 @-webkit-keyframes taufik {
   from {opacity:0;}
