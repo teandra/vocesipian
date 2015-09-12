@@ -701,7 +701,13 @@ audio {
 
 .landing {
 
+  background: linear-gradient(#B5D446 , #58CAC0);
   min-height:100%;
+}
+
+#search ol {
+
+  color: #fff;
 }
 
 .footer {
