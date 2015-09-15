@@ -16,7 +16,7 @@
  * {
   margin:0px;
   padding:0px;
-  list-style:none;
+  /*list-style:none;*/
 }
 
 :focus {
@@ -53,7 +53,7 @@ a:hover {
   background:-o-linear-gradient(-60deg,#000,#333,#000,#666,#333 70%);
   background:linear-gradient(-60deg,#000,#333,#000,#666,#333 70%);
 
-  background: url("back-notes.png") no-repeat;
+  background: url("images/back-notes.png") no-repeat;
   background-position: center;
 
   width:100%;
@@ -443,7 +443,7 @@ ul#piano li li a:hover {
   background:-ms-linear-gradient(0 0 270deg,#fff,#fff 10%,#f9f9f9);
   background:-o-linear-gradient(0 0 270deg,#fff,#fff 10%,#f9f9f9);
   background:linear-gradient(0 0 270deg,#fff,#fff 10%,#f9f9f9);
-  background: url("tweed.png") repeat;
+  background: url("images/tweed.png") repeat;
   border:1px solid #ccc;
   -webkit-box-shadow:1px 1px 8px rgba(0,0,0,0.1);
   -moz-box-shadow:1px 1px 8px rgba(0,0,0,0.1);
@@ -474,7 +474,7 @@ ul#piano li li a:hover {
   background:-ms-linear-gradient(0 0 270deg,#fff,#fff 10%,#f9f9f9);
   background:-o-linear-gradient(0 0 270deg,#fff,#fff 10%,#f9f9f9);
   background:linear-gradient(0 0 270deg,#fff,#fff 10%,#f9f9f9);
-  background: url("tweed.png") repeat;
+  background: url("images/tweed.png") repeat;
   border:1px solid #ccc;
   -webkit-box-shadow:0px 0px 8px rgba(0,0,0,0.1);
   -moz-box-shadow:0px 0px 8px rgba(0,0,0,0.1);
@@ -581,21 +581,21 @@ ul#piano li#claviature-brown a{
 
 .contactAddress {
   display: block;
-  background: url("contact_icon_address_white.png") no-repeat 0px 0px;
+  background: url("images/contact_icon_address_white.png") no-repeat 0px 0px;
   margin: 22px 0 0;
   padding: 0px 0px 0px 22px;
 }
 
 .contactPhone { 
   display: block;
-  background: url("contact_icon_phone_white.png") no-repeat 0px 2px; 
+  background: url("images/contact_icon_phone_white.png") no-repeat 0px 2px; 
   padding: 0px 0px 0px 25px; 
   margin: 22px 0 0;
 }
 
 .contactEmail { 
   display: block;
-  background: url("contact_icon_mail_white.png") no-repeat 0px 5px; 
+  background: url("images/contact_icon_mail_white.png") no-repeat 0px 5px; 
   padding: 0px 0px 0px 25px; 
   margin: 22px 0 0;
 }
