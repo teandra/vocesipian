@@ -50,13 +50,18 @@
     <div class="row" style="display:none">
       <div class="col-xs-12 maincolor">
         <audio class="maincolor" id="bg-song" controls autoplay volume=0.5>
-          <script>
-            var audio = document.getElementById('bg-song');
-            audio.volume = 0.1;
-          </script>
+
           <source src="background.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
           </audio>
+          <script>
+            var audio = document.getElementById('bg-song');
+            audio.volume = 0.1;
+            audio.addEventListener('canplaythrough', function() {
+              this.currentTime = 15;
+              this.play();
+            });
+            </script>
         </div>
       </div>
 
@@ -135,7 +140,7 @@
 
 <div class="row"> -->
   <div class="col-xs-12 col-md-1"></div>
-  <div class="col-xs-12 col-md-5">
+  <div class="col-xs-12 col-md-10">
 
     <div class="page-info">
 
@@ -145,31 +150,13 @@
 
 <div class="page-info-content">
 
+  <h3>Lectii de pian, voce, chitara, jazz pentru toate varstele</h3>
 
-
-  <p class="content">Sunteţi interesat de procesul de învăţare a unui instrument? Poate că doriţi să vă îmbunătăţiţi talentul muzical, să cântaţi într-un cor, să vă alăturaţi unui grup sau să vă formaţi propria trupă? Acum puteţi să faceţi toate acestea, să întâlniţi noi prieteni şi să găsiţi locuri pentru a evolua scenic. Aruncaţi o privire la cursurile noastre şi la membrii acestui site.</p>
-
-  <p class="content">Verificaţi ştirile noastre sau secţiunea Evenimente pe site-ul nostru pentru a afla mai multe informaţii cu privire la evenimentele viitoare.</p>
-
-  <!-- <div class="credit_ribbon"></div> -->
-</div>
-
-</div>
-</div>
-
-<div class="col-xs-12 col-md-5">
-
-  <div class="page-info">
-
-<!-- <div class="page-info-header">
-<strong><h3>Lorem ipsum</h3></strong><br />
-</div> -->
-
-<div class="page-info-content">
-
-  <p class="content">Într-un efort de a introduce cât mai multe stiluri muzicale în comunitate, organizăm evenimente publice, încurajându-ne mereu atât studenţii cât şi membrii să participe la diverse concursuri de muzică. Noi credem că muzica merită să fie împărtăşită şi ne-ar place să vă alăturaţi nouă în timpul unuia dintre evenimentele noastre.</p> 
-
-  <p class="content">Verificati informatiile despre meditatiile la <a href="pian.html"><span style="color:#BF62A6"><strong>pian</strong></span></a> si <a href="voce.html"><span style="color:#BF62A6"><strong>canto</strong></span></a> pentru mai multe detalii.</p>
+  <p class="content">Gasiti un loc propice invatarii, cu metoda de predare adaptata fiecarui cursant, profesori cu experienta si motivati de creea unei comunitati muzicale. Ascultam dorintele voastre muzicale, adaptam programul de lucru pentru nevoile fiecaruia si personalizam fiecare ora.</p>
+  <p class="content">Motto: <blockquote>,,Muzica purifica sufletele de praful vietii cotidiene,, - Berthold Auerbach</blockquote></p>
+  <p class="content">Verificati sectiuniile de <a style="color:#4B942D" href="pian.html"><b>pian</b></a> , <a style="color:#F5D63D" href="voce.html"><b>voce</b></a>, <a style="color:#F28C33" href="jazz.html"><b>jazz</b></a> pentru toate informatiile sau puteti suna la nr. 0762686570</p>
+  <p class="content">Locatia? La 10 min de metrou Universitate si 2 min de Biserica Armeneasca. Pentru harta apasa sectiunea contact.</p>
+  <p class="content">Vrei sa fii informat cu ultimele noutati si evenimente, da LIKE pe facebook <a href="http://www.facebook.com/Clubul.Muzical.Voce.si.Pian">www.facebook.com/Clubul.Muzical.Voce.si.Pian</a></p>
 
   <!-- <div class="credit_ribbon"></div> -->
 </div>

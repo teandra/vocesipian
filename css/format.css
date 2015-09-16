@@ -655,14 +655,21 @@ ul#piano li#claviature-brown a{
   padding: 20px;
 
   color: #000;
-  opacity:0.6;
-  filter:alpha(opacity=60); /* For IE8 and earlier */
+  /*opacity:0.6;*/
+  /*filter:alpha(opacity=60); /* For IE8 and earlier */*/
 
-  background:-moz-linear-gradient(left, rgba(0,0,0,0.001) 0%, rgba(201,201,201,1) 50%, rgba(0,0,0,0.001) 100%);
-  background:-webkit-linear-gradient(left, rgba(0,0,0,0.001) 0%, rgba(201,201,201,1) 50%, rgba(0,0,0,0.001) 100%);
-  background:-ms-linear-gradient(left, rgba(0,0,0,0.001) 0%, rgba(201,201,201,1) 50%, rgba(0,0,0,0.001) 100%);
-  background:-o-linear-gradient(left, rgba(0,0,0,0.001) 0%, rgba(201,201,201,1) 50%, rgba(0,0,0,0.001) 100%);
-  background:linear-gradient(left, rgba(0,0,0,0.001) 0%, rgba(201,201,201,1) 50%, rgba(0,0,0,0.001) 100%);
+  background:-moz-linear-gradient(left, rgba(0,0,0,0.001) 0%, rgba(241, 241, 241,1) 50%, rgba(0,0,0,0.001) 100%);
+  background:-webkit-linear-gradient(left, rgba(0,0,0,0.001) 0%, rgba(241, 241, 241,1) 50%, rgba(0,0,0,0.001) 100%);
+  background:-ms-linear-gradient(left, rgba(0,0,0,0.001) 0%, rgba(241, 241, 241,1) 50%, rgba(0,0,0,0.001) 100%);
+  background:-o-linear-gradient(left, rgba(0,0,0,0.001) 0%, rgba(241, 241, 241,1) 50%, rgba(0,0,0,0.001) 100%);
+  background:linear-gradient(left, rgba(0,0,0,0.001) 0%, rgba(241, 241, 241,1) 50%, rgba(0,0,0,0.001) 100%);
+
+/*background:-moz-linear-gradient(left, rgb(0,0,0) 0%, rgb(201,201,201) 50%, rgb(0,0,0) 100%);
+  background:-webkit-linear-gradient(left, rgb(0,0,0) 0%, rgb(201,201,201) 50%, rgb(0,0,0) 100%);
+  background:-ms-linear-gradient(left, rgb(0,0,0) 0%, rgb(201,201,201) 50%, rgb(0,0,0) 100%);
+  background:-o-linear-gradient(left, rgb(0,0,0) 0%, rgb(201,201,201) 50%, rgb(0,0,0) 100%);
+  background:linear-gradient(left, rgb(0,0,0) 0%, rgb(201,201,201) 50%, rgb(0,0,0) 100%);*/
+
 
 
   border:1px solid #ccc;
@@ -701,8 +708,10 @@ audio {
 
 .landing {
 
-  background: linear-gradient(#B5D446 , #58CAC0);
+  padding-bottom: 50px;
+  background: linear-gradient(#FFFFFF 85%, #C3C3C3);
   min-height:100%;
+  border-bottom: 5px solid #000;
 }
 
 #search ol {
