@@ -709,7 +709,7 @@ audio {
 .landing {
 
   padding-bottom: 50px;
-  background: linear-gradient(#FFFFFF 85%, #C3C3C3);
+  background: linear-gradient(#C3C3C3 15%, #FFFFFF 85%, #C3C3C3 100%);
   min-height:100%;
   border-bottom: 5px solid #000;
 }
