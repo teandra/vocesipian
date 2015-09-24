@@ -69,74 +69,7 @@
 
       <div class="row landing-dark-blue">
         <div class="col-xs-12">
-          <div id="p-wrapper">
-            <ul id="piano">
-<!-- <li><div class="anchor"></div></li>
-<li><a href="#"></a><span></span><b>Acasa</b></li>
-<li><div class="anchor"></div><span></span></li>
-<li><div class="anchor"></div><span></span></li> -->
-<li id="claviature-dark-blue"><a href="index.html"></a><b>Voce si Pian</b></li>
-<li id="claviature-dark-green"><a href="pian.html"></a><span></span><b>Pian</b>
-<div id="search">
-<ol>
-<li>4 sedinte: 250 RON</li>
-<li>8 sedinte: 450 RON</li>
-</ol>
-</div>
-</li>
-<li id="claviature-yellow"><a href="voce.html"></a><span></span><b>Voce</b>
-<div id="search">
-<ol>
-<li>4 sedinte: 250 RON</li>
-<li>8 sedinte: 450 RON</li>
-</ol>
-</div>
-</li>
-<li id="claviature-orange"><a href="jazz.html"></a><b>Jazz</b>
-<div id="search">
-<ol>
-<li>4 sedinte: 350 RON</li>
-<li>8 sedinte: 600 RON</li>
-</ol>
-</div>
-</li>
-<li id="claviature-pink"><a href="despre.html"></a><span></span><b>Despre noi</b></li>
-<li id="claviature-purple"><a href="media.html"></a><span></span><b>Media</b></li>
-<li id="claviature-brown"><a href="termeni.html"></a><span></span><b>Termeni si conditii</b></li>
-
-  <!-- <ul>
-    <li><a href="#">2007</a></li>
-    <li><a href="#">2006</a></li>
-    <li><a href="#">2005</a></li>
-    <li><a href="#">2004</a></li>
-  </ul> -->
-
-<li id="claviature-dark-blue"><a href="#contact"></a><b>Contact</b>
-<!-- <div id="search">
-<form>
-<input type="text" placeholder="Search..." />
-</form>
-</div> -->
-</li>
-<!-- <div id="contact">
-<form>
-<input type="text" class="required" placeholder="Name" />
-<input type="text" class="required" placeholder="Email" />
-<textarea class="required" placeholder="Your messages..."></textarea>
-<input type="submit" value="Send" />
-<div class="clear"></div>
-</form>
-</div> -->
-
-<!-- <li><div class="anchor"></div><span></span></li>
-<li><div class="anchor"></div></li>
-
-<li><div class="anchor"></div><span></span></li>
-<li><div class="anchor"></div><span></span></li>
-<li><div class="anchor"></div><span></span></li>
-<li><div class="anchor"></div></li> -->
-</ul>
-</div>
+          <?php include('meniu.html'); ?>
 </div>
 <!-- </div>
 
@@ -156,7 +89,7 @@
 
   <p class="content">Găsiți un loc propice învățării, cu metode de predare adaptate fiecărui cursant, profesori cu experiență și o locație ruptă de aglomerația orașului. Ascultăm dorințele voastre muzicale, adaptăm programul de lucru pentru nevoile fiecăruia și personalizăm fiecare oră.</p>
   <p class="content">Motto: <blockquote style="text-align:center">,,Muzica purifică sufletele de praful vieții cotidiene,, - Berthold Auerbach</blockquote></p>
-  <p class="content">Verificați secțiuniile de <a style="color:#4B942D" href="pian.html"><b>pian</b></a>, <a style="color:#F5D63D" href="voce.html"><b>voce</b></a>, <a style="color:#4B942D" href="chitara.html"><b>chitară</b></a>, <a style="color:#F28C33" href="jazz.html"><b>jazz</b></a> pentru toate informațiile sau puteți suna la nr. 0762686570.</p>
+  <p class="content">Verificați secțiuniile de <a style="color:#4B942D" href="pian.php"><b>pian</b></a>, <a style="color:#F5D63D" href="voce.php"><b>voce</b></a>, <a style="color:#F28C33" href="chitara.php"><b>chitară</b></a>, <a style="color:#F44336" href="jazz.php"><b>jazz</b></a> pentru toate informațiile sau puteți suna la nr. 0762686570.</p>
   <p class="content">Locația? La 10 minute de metrou Universitate și 2 minute de Biserica Armenească. Pentru hartă apasă secțiunea contact.</p>
   <p class="content">Vrei să fii informat cu ultimele noutăți și evenimente,  apasă LIKE paginii noastre de facebook: <a href="http://www.facebook.com/Clubul.Muzical.Voce.si.Pian">www.facebook.com/Clubul.Muzical.Voce.si.Pian</a></p>
 

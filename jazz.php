@@ -62,82 +62,15 @@
         </div>
       </div>
 
-      <div class="row landing-dark-green">
+      <div class="row landing-red">
         <div class="col-xs-12">
-          <div id="p-wrapper">
-            <ul id="piano">
-<!-- <li><div class="anchor"></div></li>
-<li><a href="#"></a><span></span><b>Acasa</b></li>
-<li><div class="anchor"></div><span></span></li>
-<li><div class="anchor"></div><span></span></li> -->
-<li id="claviature-dark-blue"><a href="index.html"></a><b>Voce si Pian</b></li>
-<li id="claviature-dark-green"><a href="pian.html"></a><span></span><b>Pian</b>
-<div id="search">
-<ol>
-<li>4 sedinte: 250 RON</li>
-<li>8 sedinte: 450 RON</li>
-</ol>
-</div>
-</li>
-<li id="claviature-yellow"><a href="voce.html"></a><span></span><b>Voce</b>
-<div id="search">
-<ol>
-<li>4 sedinte: 250 RON</li>
-<li>8 sedinte: 450 RON</li>
-</ol>
-</div>
-</li>
-<li id="claviature-orange"><a href="jazz.html"></a><b>Jazz</b>
-<div id="search">
-<ol>
-<li>4 sedinte: 350 RON</li>
-<li>8 sedinte: 600 RON</li>
-</ol>
-</div>
-</li>
-<li id="claviature-pink"><a href="despre.html"></a><span></span><b>Despre noi</b></li>
-<li id="claviature-purple"><a href="media.html"></a><span></span><b>Media</b></li>
-<li id="claviature-brown"><a href="termeni.html"></a><span></span><b>Termeni si conditii</b></li>
-
-  <!-- <ul>
-    <li><a href="#">2007</a></li>
-    <li><a href="#">2006</a></li>
-    <li><a href="#">2005</a></li>
-    <li><a href="#">2004</a></li>
-  </ul> -->
-
-<li id="claviature-dark-blue"><a href="#contact"></a><b>Contact</b>
-<!-- <div id="search">
-<form>
-<input type="text" placeholder="Search..." />
-</form>
-</div> -->
-</li>
-<!-- <div id="contact">
-<form>
-<input type="text" class="required" placeholder="Name" />
-<input type="text" class="required" placeholder="Email" />
-<textarea class="required" placeholder="Your messages..."></textarea>
-<input type="submit" value="Send" />
-<div class="clear"></div>
-</form>
-</div> -->
-
-<!-- <li><div class="anchor"></div><span></span></li>
-<li><div class="anchor"></div></li>
-
-<li><div class="anchor"></div><span></span></li>
-<li><div class="anchor"></div><span></span></li>
-<li><div class="anchor"></div><span></span></li>
-<li><div class="anchor"></div></li> -->
-</ul>
-</div>
+          <?php include('meniu.html'); ?>
 </div>
 <!-- </div>
 
 <div class="row"> -->
   <div class="col-xs-12 col-md-1"></div>
-  <div class="col-xs-12 col-md-10">
+  <div class="col-xs-12 col-md-5">
 
     <div class="page-info">
 
@@ -147,26 +80,53 @@
 
 <div class="page-info-content">
 
+  <p class="content">Pian - învățarea tehnicii de pian, învățarea contrucției unei piese de jazz și interpretarea acesteia, improvizare jazz.</p>
 
+  <p class="content">Voce - însușirea unei tehnici vocale corecte și sănătoase pentru interpretarea unei piese de jazz, învățarea piesei, deprinderea ritmului și melodicității melodiei.</p>
 
-  <p class="content">Dedicate incepatorilor, inspira dragostea pentru muzica tuturor participantilor, indiferent de varsta. Aceste cursuri de pian au ca obiectiv sa ii invete pe cursanti cadrul general al muzicii, referitor la citirea notelor muzicale si ritm.</p>
+  <p class="content">Lecțiile pot începe de la vârsta de 14 ani, fără limită superioară de vârstă.</p>
 
-  <p class="content">Destinate celor de nivel avansat au in vedere pregatirea acestora dincolo de nivelurile intermediare, in studierea muzicii la un nivel avansat si aprofundat.</p>
-
-  <p class="content">Dedicate celor de nivel intermediar, au drept scop imbunatatirea cunostintelor muzicale si a repertoriului muzical.</p>
-
-  <p class="content">Lectiile pot incepe de la varsta de 5 ani fara limita superioara de varsta.</p>
-
-  <p class="content">Lectiile sunt individuale si dureaza 55 de minute.</p>
+  <p class="content">Ședințele sunt individuale și durează 55 de minute.</p>
 
   <p class="content">Abonamente:</p>
 
   <ul style="list-style-type:none">
-  <li>4 sedinte: 250 RON</li>
-  <li>8 sedinte: 450 RON</li>
+  <li>4 ședințe: 350 RON</li>
+  <li>8 ședințe: 600 RON</li>
   </ul>
 
-  <p class="content"><a href="termeni.html">Termenii abonamentului</a></p>
+  <p class="content"><a href="termeni.php">Termenii abonamentului</a></p>
+  <!-- <div class="credit_ribbon"></div> -->
+</div>
+
+</div>
+</div>
+
+<div class="col-xs-12 col-md-5">
+
+    <div class="page-info">
+
+<!-- <div class="page-info-header">
+<strong><h3>Lorem ipsum</h3></strong><br />
+</div> -->
+
+<div class="page-info-content">
+
+  <p class="content">Sunt destinate tuturor iubitorilor de jazz care doresc să învețe sau să aprofundeze cunoștințele muzicii jazz la intrumentele pian și voce. Se pot aprofunda toate stilurile de jazz:</p>
+
+  <ul style="list-style-type:none">
+  <li>Blues</li>
+  <li>Ragtime</li>
+  <li>New Orleans</li>
+  <li>Dixieland</li>
+  <li>Chicago</li>
+  <li>Swing</li>
+  <li>Bebop</li>
+  <li>Cool Jazz</li>
+  <li>Hard Bop</li>
+  <li>Modal Jazz</li>
+  <li>Free Jazz</li>
+  </ul>
   <!-- <div class="credit_ribbon"></div> -->
 </div>
 

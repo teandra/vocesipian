@@ -571,6 +571,10 @@ ul#piano li#claviature-pink a{
   background: #E868A2;
 }
 
+ul#piano li#claviature-red a{
+  background: #F44336;
+}
+
 ul#piano li#claviature-purple a{
   background: #BF62A6;
 }
@@ -734,6 +738,13 @@ audio {
 
   padding-bottom: 50px;
   background: linear-gradient(#E868A2 15%, #FFFFFF 85%, #E868A2 100%);
+  border-bottom: 5px solid #000;
+}
+
+.landing-red {
+
+  padding-bottom: 50px;
+  background: linear-gradient(#F44336 15%, #FFFFFF 85%, #F44336 100%);
   border-bottom: 5px solid #000;
 }
 
