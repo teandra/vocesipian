@@ -82,7 +82,7 @@
 
 
   <h4>1. Modul de plată</h4>
-  <p class="content">Plata sedințelor se va face la începutul abonamentului. Aceasta se poate efectua numerar la locația: Strada Eforie, nr. 2, sector 5, Bucuresti sau prin transfer bancar la contul RO86BTRL01401201I03024XX.</p>
+  <p class="content">Plata sedințelor se va face la începutul abonamentului. Aceasta se poate efectua numerar la locația: Strada Eforie, nr. 2, sector 5, Bucuresti sau prin transfer bancar la contul <b>RO86BTRL01401201I03024XX</b>.</p>
   <h4>2. Durata abonamentului</h4>
   <p class="content">Abonamentul are o valabilitate de 30 de zile din ziua începerii primei ședințe. Abonamentul poate fi:</p>
   <ul style="list-style-type:none">
@@ -107,7 +107,7 @@
   <p class="content">Datorate concediilor sau vacanțelor școlare ale cursanțiilor, trebuiesc anunțate cu cel puțin o săptămână în avans. Regula este valabilă în ambele sensuri, pauzele datorate concediilor profesoriilor vor fi aduse la cunoștiința cursanților cu cel puțin o săptămână înainte.</p>
 
   <h4>6. Programarea ședințelor</h4>
-  <p class="content">Se face <b>exclusiv telefonic</b>, la numărul de telefon afișat în pagina de contact a 
+  <p class="content">Se face <b>exclusiv telefonic</b>, la numărul de telefon afișat în pagina de <a style="color:#459BA8" href="#contact"><b>contact</b></a> a 
 site-ului.</p>
   <!-- <div class="credit_ribbon"></div> -->
 </div>

@@ -85,12 +85,13 @@
 
 <div class="page-info-content">
 
-  <h3 style="text-align:center">Lecții de pian, voce, chitară și jazz pentru toate vârstele</h3>
+  <h2 style="text-align:center"><b>Lecții de pian, voce, chitară și jazz pentru toate vârstele</b></h2>
 
-  <p class="content">Găsiți un loc propice învățării, cu metode de predare adaptate fiecărui cursant, profesori cu experiență și o locație ruptă de aglomerația orașului. Ascultăm dorințele voastre muzicale, adaptăm programul de lucru pentru nevoile fiecăruia și personalizăm fiecare oră.</p>
-  <p class="content">Motto: <blockquote style="text-align:center">,,Muzica purifică sufletele de praful vieții cotidiene,, - Berthold Auerbach</blockquote></p>
+  <p class="content">Găsiți un loc propice învățării, cu metode de predare adaptate fiecărui cursant, profesori cu experiență și o locație ruptă de aglomerația orașului.</p>
+  <p class="content">Ascultăm dorințele voastre muzicale, adaptăm programul de lucru pentru nevoile fiecăruia și personalizăm fiecare oră.</p>
+  <p class="content">Motto: <blockquote style="text-align:center"><b>,,Muzica purifică sufletele de praful vieții cotidiene,, - Berthold Auerbach</b></blockquote></p>
   <p class="content">Verificați secțiuniile de <a style="color:#4B942D" href="pian.php"><b>pian</b></a>, <a style="color:#F5D63D" href="voce.php"><b>voce</b></a>, <a style="color:#F28C33" href="chitara.php"><b>chitară</b></a>, <a style="color:#F44336" href="jazz.php"><b>jazz</b></a> pentru toate informațiile sau puteți suna la nr. 0762686570.</p>
-  <p class="content">Locația? La 10 minute de metrou Universitate și 2 minute de Biserica Armenească. Pentru hartă apasă secțiunea contact.</p>
+  <p class="content">Locația? La 10 minute de metrou Universitate și 2 minute de Biserica Armenească. Pentru hartă apasă secțiunea <a style="color:#459BA8" href="#contact"><b>contact</b></a> .</p>
   <p class="content">Vrei să fii informat cu ultimele noutăți și evenimente,  apasă LIKE paginii noastre de facebook: <a href="http://www.facebook.com/Clubul.Muzical.Voce.si.Pian">www.facebook.com/Clubul.Muzical.Voce.si.Pian</a></p>
 
   <!-- <div class="credit_ribbon"></div> -->

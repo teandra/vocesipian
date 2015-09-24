@@ -77,7 +77,7 @@ ul#piano {
   margin-left: auto;
   margin-right: auto;
   /*width:320px;*/
-  width:80%;
+  width:40%;
   height:240px;
   border-top:2px solid #222;
 }
@@ -110,10 +110,10 @@ ul#piano li a,ul#piano li div.anchor {
   border-radius:0 0 3px 3px;
   text-align: center;
   text-decoration: none;
-  font-size: 1.875em;
+  font-size: 1em;
   color: #000;
   font-family: "Lucida Console", Monaco, monospace;
-  padding-top: 60%;
+  padding-top: 160%;
 }
 
 ul#piano li a:active,ul#piano li div.anchor:active {
@@ -552,7 +552,7 @@ ul#piano li li a:hover {
 }
 
 .credit p.content {
-  font:italic 1.2em Cambria,Georgia,Serif;
+  font:italic 1.4em Cambria,Georgia,Serif;
 }
 
 ul#piano li#claviature-light-blue a{
@@ -637,7 +637,7 @@ ul#piano li#claviature-brown a{
   padding: 0px;
   /*background: #241023;*/
   color: #6B0504;
-  font: 1.1em "Comic Sans MS", cursive, sans-serif;
+  font: 1.4em "Comic Sans MS", cursive, sans-serif;
   
   /*border:1px solid #ccc;
   -webkit-box-shadow:1px 1px 4px rgba(0,0,0,0.1);
