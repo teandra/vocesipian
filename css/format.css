@@ -25,13 +25,13 @@
 
 body {
   /*background:#666;*/
-  /*background:-webkit-radial-gradient(bottom left,cover,#FBE9E7,#0E0E0E);
+  background:-webkit-radial-gradient(bottom left,cover,#FBE9E7,#0E0E0E);
   background:-moz-radial-gradient(bottom left,cover,#FBE9E7,#0E0E0E);
   background:-ms-radial-gradient(bottom left,cover,#FBE9E7,#0E0E0E);
   background:-o-radial-gradient(bottom left,cover,#FBE9E7,#0E0E0E);
   background:radial-gradient(bottom left,cover,#FBE9E7,#0E0E0E);
-  background: #FCE4EC;*/
-  background: linear-gradient(#B5D446 , #58CAC0);
+  background: #324148;
+  /*background: linear-gradient(#B5D446 , #58CAC0);*/
   /*height:500px;*/
 }
 
@@ -699,18 +699,62 @@ audio {
 
 #map {
   /*width: 500px;*/
-  height: 200px;
+  height: 400px;
 }
 
-.container-fluid {
-  height:100%;
+.landing-dark-blue {
+
+  padding-bottom: 50px;
+  background: linear-gradient(#459BA8 15%, #FFFFFF 85%, #459BA8 100%);
+  border-bottom: 5px solid #000;
+}
+
+.landing-dark-green {
+
+  padding-bottom: 50px;
+  background: linear-gradient(#79C267 15%, #FFFFFF 85%, #79C267 100%);
+  border-bottom: 5px solid #000;
+}
+
+.landing-yellow {
+
+  padding-bottom: 50px;
+  background: linear-gradient(#F5D63D 15%, #FFFFFF 85%, #F5D63D 100%);
+  border-bottom: 5px solid #000;
+}
+
+.landing-orange {
+
+  padding-bottom: 50px;
+  background: linear-gradient(#F28C33 15%, #FFFFFF 85%, #F28C33 100%);
+  border-bottom: 5px solid #000;
+}
+
+.landing-pink {
+
+  padding-bottom: 50px;
+  background: linear-gradient(#E868A2 15%, #FFFFFF 85%, #E868A2 100%);
+  border-bottom: 5px solid #000;
+}
+
+.landing-purple {
+
+  padding-bottom: 50px;
+  background: linear-gradient(#BF62A6 15%, #FFFFFF 85%, #BF62A6 100%);
+  border-bottom: 5px solid #000;
+}
+
+.landing-brown {
+
+  padding-bottom: 50px;
+  background: linear-gradient(#795548 15%, #FFFFFF 85%, #795548 100%);
+  border-bottom: 5px solid #000;
 }
 
 .landing {
 
   padding-bottom: 50px;
   background: linear-gradient(#C3C3C3 15%, #FFFFFF 85%, #C3C3C3 100%);
-  min-height:100%;
   border-bottom: 5px solid #000;
 }
 
@@ -721,6 +765,7 @@ audio {
 
 .footer {
 
+  height: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
   background:-moz-linear-gradient(bottom, #455A64 0%, #37474F 5%, #263238 100%);
@@ -736,6 +781,7 @@ audio {
   float:left;
   padding: 25px;
   color: #fff;
+  font: 2em;
 }
 /* Animation */
 @-webkit-keyframes taufik {
