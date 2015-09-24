@@ -76,7 +76,8 @@ ul#piano {
   display:block;
   margin-left: auto;
   margin-right: auto;
-  width:320px;
+  /*width:320px;*/
+  width:80%;
   height:240px;
   border-top:2px solid #222;
 }
@@ -86,7 +87,8 @@ ul#piano li {
   float:left;
   display:inline;
   background:#aaa;
-  width:40px;
+  /*width:40px;*/
+  width:12%;
   position:relative;
 }
 
@@ -106,6 +108,12 @@ ul#piano li a,ul#piano li div.anchor {
   -webkit-border-radius:0 0 3px 3px;
   -moz-border-radius:0 0 3px 3px;
   border-radius:0 0 3px 3px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.875em;
+  color: #000;
+  font-family: "Lucida Console", Monaco, monospace;
+  padding-top: 60%;
 }
 
 ul#piano li a:active,ul#piano li div.anchor:active {
@@ -115,6 +123,10 @@ ul#piano li a:active,ul#piano li div.anchor:active {
   position:relative;
   top:2px;
   height:216px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.875em;
+  color: #000;
 }
 
 ul#piano li a:active:before,ul#piano li div.anchor:active:before {
