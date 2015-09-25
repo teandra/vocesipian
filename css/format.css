@@ -54,7 +54,7 @@ a:hover {
   background:linear-gradient(-60deg,#000,#333,#000,#666,#333 70%);
 
   background: url("images/back-notes.png") no-repeat;
-  background-position: justified;
+  background-position: center;
 
   width:100%;
   position:relative;
