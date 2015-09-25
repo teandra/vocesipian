@@ -54,7 +54,7 @@ a:hover {
   background:linear-gradient(-60deg,#000,#333,#000,#666,#333 70%);
 
   background: url("images/back-notes.png") no-repeat;
-  background-position: center;
+  background-position: justified;
 
   width:100%;
   position:relative;
@@ -804,7 +804,8 @@ audio {
   float:left;
   padding: 25px;
   color: #fff;
-  font: 2em;
+  font-size: 1.6em;
+  padding-top: 90px;
 }
 /* Animation */
 @-webkit-keyframes taufik {
