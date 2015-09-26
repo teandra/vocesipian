@@ -99,8 +99,34 @@
 
 </div>
 </div>
+<div class="col-xs-12 col-md-1"></div>
+
+
+  <div class="col-xs-12 col-md-12">
+
+    <div class="page-info">
+
+<!-- <div class="page-info-header">
+<strong><h3>Lorem ipsum</h3></strong><br />
+</div> -->
+
+<div class="page-info-content">
+  <h2 style="text-align:center"><b>Medota Pianului Curcubeu  de Alexandra Ștefan</b></h2>
+
+  <p class="content" style="text-align:center">Această metodă este inedită in Romania, fiind dedicată în special copiilor preșcolari.</p>
+  <p class="content">În această metodă, se folosesc culorile pentru fiecare notă în parte, astfel copii asociind mai ușor noțiunile de bază ale pianului. Pianul ajută la dezvoltarea copiilor,  devenind mai creativi, mai coereți în gîndire și se pot concentra mai ușor cînd au ceva de rezolvat, indiferent că e o problemă de școală sau de altă natură. Ei capată o foarte bună coordonare mână-ochi, își îmbunătățesc semnificativ memoria, devin mai disciplinați și mai responsabili.</p>
+  <p class="content">În metodă se găsesc exerciții de scriere a notelor, de recunoaștere prin colorarea acestora și o pagină la terminarea fiecarei lecții cu portative pentru încurajarea copilului de a scrie propria sa piesă. Astfel, învătând mai multe note, au piese mai colorate și mai atractive. Prin acest mod pianul devine o joacă și joaca se transformă într-o capodoperă muzicală.</p>
+  <p class="content" style="text-align:center"><b>Bonus:</b> copii vor cânta notele când vor colora prin casă sau fac orice activitate colorată.</p>
+  <!-- <div class="credit_ribbon"></div> -->
+</div>
+
+</div>
+</div>
 
 <div class="col-xs-12 col-md-1"></div>
+<div class="col-xs-12 col-md-12 rainbow">
+  
+</div>
 <!-- <div class="col-xs-12 col-md-1"></div> -->
 </div>
 
@@ -116,12 +142,8 @@
 
     </div>
     <div class="page-info-content"> -->
-      <div class="footer-contact">
-        <span class="contactAddress">Strada Spatarului, nr. 27 (harta) <br />la 2 minute de Biserica Armeneasca si 10 minute de metrou Universitate
-        </span>
-        <span class="contactPhone">0762686570</span>
-        <span class="contactEmail"><a href="mailto:alexandra.stefan.soprano@gmail.com">alexandra.stefan.soprano@gmail.com</a></span>
-      </div>
+    <?php include('footer.html'); ?>
+      
   <!--   </div>
 </div> -->
 

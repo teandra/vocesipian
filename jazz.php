@@ -149,12 +149,7 @@
 
     </div>
     <div class="page-info-content"> -->
-      <div class="footer-contact">
-        <span class="contactAddress">Strada Spatarului, nr. 27 (harta) <br />la 2 minute de Biserica Armeneasca si 10 minute de metrou Universitate
-        </span>
-        <span class="contactPhone">0762686570</span>
-        <span class="contactEmail"><a href="mailto:alexandra.stefan.soprano@gmail.com">alexandra.stefan.soprano@gmail.com</a></span>
-      </div>
+      <?php include('footer.html'); ?>
   <!--   </div>
 </div> -->
 

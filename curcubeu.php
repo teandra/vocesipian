@@ -20,8 +20,6 @@
 
   <script src="https://maps.googleapis.com/maps/api/js"></script>
 
-  <link rel="stylesheet" href="lightbox2-master/dist/css/lightbox.css">
-
   <script>
  
     var vsp = new google.maps.LatLng(44.439676, 26.113518);
@@ -64,7 +62,7 @@
         </div>
       </div>
 
-      <div class="row landing-yellow">
+      <div class="row landing-dark-blue">
         <div class="col-xs-12">
           <?php include('meniu.html'); ?>
 </div>
@@ -72,7 +70,7 @@
 
 <div class="row"> -->
   <div class="col-xs-12 col-md-1"></div>
-  <div class="col-xs-12 col-md-5">
+  <div class="col-xs-12 col-md-10">
 
     <div class="page-info">
 
@@ -82,47 +80,10 @@
 
 <div class="page-info-content">
 
-
-
-  <p class="content">Cursurile sunt destinate tuturor celor care doresc să își însușească o tehnică vocală sănătoasă și corectă.</p>
-
-  <p class="content">Lecțiile pot începe de la vârsta de 7-8 ani, fără limită superioară de vârstă.</p>
-
-  <p class="content">Ședințele sunt individuale și durează 55 de minute.</p>
-
-  <p class="content">Abonamente:</p>
-
-  <ul style="list-style-type:none">
-  <li>4 ședințe: 250 RON</li>
-  <li>8 ședințe: 450 RON</li>
-  </ul>
-
-  <p class="content"><a href="termeni.php">Termenii abonamentului</a></p>
-  <!-- <div class="credit_ribbon"></div> -->
-</div>
-
-</div>
-</div>
-
-<div class="col-xs-12 col-md-5">
-
-  <div class="page-info">
-
-<div class="page-info-content">
-
-  <p class="content">Se pot aprofunda umătoarele stiluri:</p>
-  <ul style="list-style-type:none">
-  <li>Muzică populară</li>
-  <li>Muzică pop</li>
-  <li>Muzică rap</li>
-  <li>Muzică dance</li>
-  <li>Muzică reggae</li>
-  <li>Muzică rock</li>
-  <li>Muzică romanească</li>
-  <li>Muzică de film</li>
-  <li>Muzică de operetă</li>
-  <li>Muzică de operă</li>
-  </ul>
+  <p class="content">Această metodă este inedită in Romania, fiind dedicată în special copiilor preșcolari.</p>
+  <p class="content">În această metodă, se folosesc culorile pentru fiecare notă în parte, astfel copii asociind mai ușor noțiunile de bază ale pianului. Pianul ajută la dezvoltarea copiilor,  devenind mai creativi, mai coereți în gîndire și se pot concentra mai ușor cînd au ceva de rezolvat, indiferent că e o problemă de școală sau de altă natură. Ei capată o foarte bună coordonare mână-ochi, își îmbunătățesc semnificativ memoria, devin mai disciplinați și mai responsabili.</p>
+  <p class="content">În metodă se găsesc exerciții de scriere a notelor, de recunoaștere prin colorarea acestora și o pagină la terminarea fiecarei lecții cu portative pentru încurajarea copilului de a scrie propria sa piesă. Astfel, învătând mai multe note, au piese mai colorate și mai atractive. Prin acest mod pianul devine o joacă și joaca se transformă într-o capodoperă muzicală.</p>
+  <p class="content">Bonus: copii vor cânta notele când vor colora prin casă sau fac orice activitate colorată.</p>
   <!-- <div class="credit_ribbon"></div> -->
 </div>
 
