@@ -82,7 +82,7 @@
 
 
   <h4>1. Modul de plată</h4>
-  <p class="content">Plata sedințelor se va face la începutul abonamentului. Aceasta se poate efectua numerar la locația: Strada Eforie, nr. 2, sector 5, Bucuresti sau prin transfer bancar la contul <b>RO86BTRL01401201I03024XX</b>.</p>
+  <p class="content">Plata sedințelor se va face la începutul abonamentului. Aceasta se poate efectua numerar la locația: Strada Eforie, nr. 2, sector 5, Bucuresti sau prin transfer bancar.</p>
   <h4>2. Durata abonamentului</h4>
   <p class="content">Abonamentul are o valabilitate de 30 de zile din ziua începerii primei ședințe. Abonamentul poate fi:</p>
   <ul style="list-style-type:none">
