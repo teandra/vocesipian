@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Voice&Piano</title>
+  <title>VOCE SI PIAN</title>
   <link rel="shortcut icon" href="favicon.ico">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
